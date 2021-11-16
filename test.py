@@ -51,3 +51,29 @@ requests.get('https://example.domain', verify=False) # Noncompliant
 
 requests.request('GET', 'http://example.domain', verify=False) # Noncompliant
 requests.get('http://example.domain', verify=False) # Noncompliant
+
+
+
+requests.request('GET', 'https://example.domain', verify=False) # Noncompliant
+requests.get('https://example.domain', verify=False) # Noncompliant
+
+
+requests.request('GET', 'http://example.domain', verify=False) # Noncompliant
+requests.get('http://example.domain', verify=False) # Noncompliant
+
+
+requests.request('GET', 'https://example.domain', verify=False) # Noncompliant
+requests.get('https://example.domain', verify=False) # Noncompliant
+
+
+requests.request('GET', 'http://example.domain', verify=False) # Noncompliant
+requests.get('http://example.domain', verify=False) # Noncompliant
+
+
+requests.request('GET', 'https://example.domain', verify=False) # Noncompliant
+requests.get('https://example.domain', verify=False) # Noncompliant
+
+
+requests.request('GET', 'http://example.domain', verify=False) # Noncompliant
+requests.get('http://example.domain', verify=False) # Noncompliant
+
