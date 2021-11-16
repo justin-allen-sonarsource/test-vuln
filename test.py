@@ -5,8 +5,6 @@ __all__ = ["unknown_func"]  # Noncompliant. "unknown_func" is undefined
 
 import requests
 
-requests.request('GET', 'https://example.domain', verify=False) # Noncompliant
-requests.get('https://example.domain', verify=False) # Noncompliant
 
 from flask import request
 from flask_sqlalchemy import SQLAlchemy
@@ -30,3 +28,10 @@ tmp_file = open(filename, "w+")
 import requests
 
 
+
+requests.request('GET', 'https://example.domain', verify=False) # Noncompliant
+requests.get('https://example.domain', verify=False) # Noncompliant
+
+
+requests.request('GET', 'http://example.domain', verify=False) # Noncompliant
+requests.get('http://example.domain', verify=False) # Noncompliant
